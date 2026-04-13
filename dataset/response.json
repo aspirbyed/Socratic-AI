@@ -1,0 +1,99 @@
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Ratio and proportion",
+  "problem": "Divide $150 between Alice and Bob in the ratio 2:3. How much money does Bob receive?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I see the numbers 150 and the ratio 2:3. Do I just multiply 150 by 2 and 150 by 3 to get their shares?"
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "If you did that, Alice would get $300 and Bob would get $450. Does that make sense if we only have $150 to start with? Think of the ratio as 'parts' of a whole."
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Oh, right, that's way too much money. So I need to find the total parts. Is that 2 times 3, which is 6 parts?"
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "Not quite multiplication. If Alice gets 2 parts and Bob gets 3 parts, how many parts are being handed out in total?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Oh, I should add them! 2 + 3 = 5. So there are 5 parts total."
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "Exactly. Now, if the entire $150 is made up of these 5 equal parts, how can we find the value of just one single part?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "I'll divide 150 by the first ratio number. 150 divided by 2 is 75. So one part is 75?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "Remember, we decided the 'whole' is made of 5 parts. We need to split that $150 into 5 equal piles. What is 150 divided by 5?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Wait, let me calculate... 150 divided by 5 is 30. So each part is worth $30."
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Spot on. Now, looking at the ratio 2:3 for Alice and Bob, how many of those $30 parts does Bob get?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Alice is the first number, so she gets 3 parts? 3 times 30 is 90."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "Close, but look at the order in the problem: 'Alice and Bob in the ratio 2:3'. Usually, the first name matches the first number. Who corresponds to the 3?"
+    },
+    {
+      "turn": 13,
+      "speaker": "student",
+      "text": "My bad! Alice is 2 and Bob is 3. So Bob gets 3 parts. 3 times 30 is $90. So Bob receives $90."
+    },
+    {
+      "turn": 14,
+      "speaker": "tutor",
+      "text": "That's correct! Just to be sure, how much would Alice get, and do their totals add back up to $150?"
+    },
+    {
+      "turn": 15,
+      "speaker": "student",
+      "text": "Alice gets 2 parts, so 2 times 30 is 60. And 60 plus 90 is 150. It works!"
+    },
+    {
+      "turn": 16,
+      "speaker": "tutor",
+      "text": "Perfect. To wrap up, can you explain the general rule for dividing a total into a ratio in your own words?"
+    },
+    {
+      "turn": 17,
+      "speaker": "student",
+      "text": "First, you add the ratio numbers together to find the total number of parts. Then you divide the total amount of money by that sum to find out how much one part is worth. Finally, you multiply that one-part value by the specific number in the ratio for the person you are looking for."
+    }
+  ]
+}
