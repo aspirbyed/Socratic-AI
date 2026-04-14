@@ -1,0 +1,234 @@
+[
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Percentages",
+  "problem": "A pair of shoes originally costs $80. During a clearance sale, the store offers a 25% discount. What is the sale price of the shoes?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "Okay, so the shoes are $80 and the discount is 25%. To find the answer, I should just do $80 minus 25, right? So the price is $55."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "I see what you're thinking, but a percentage isn't a fixed dollar amount like $25. It represents a portion of the total. If 'percent' means 'per hundred', how would you write 25% as a fraction or a decimal?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Oh, it's 25 out of 100. So 0.25. If I subtract that from $80, I get $79.75. That seems like a very small discount for a clearance sale."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "You're right, that doesn't seem like much of a sale! The mistake is that we need to find 25% *of* the $80 first. Think of it this way: 25% is the same as one-quarter (1/4). How would you find one-quarter of $80?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "To find a quarter, I divide by 4. $80 divided by 4 is $20. Is $20 the answer?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "You're very close! $20 is the amount of the discount, meaning that's how much money is being taken off the price. The question asks for the final sale price. What do we do next?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Since it's a discount, I should add it to the original price? So $80 + $20 = $100?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "Think about when you go shopping. If a store has a '25% off' sign, do you expect to pay more than the original price or less?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Oops, less! I should have subtracted. So $80 - $20 = $60. The sale price is $60."
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Spot on! $60 is the correct sale price. To make sure this makes sense for future problems, can you explain in your own words the steps we took to get there?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "First, I had to realize that 25% is a portion of the price, not just a number to subtract. I turned 25% into a fraction, which was 1/4, and multiplied that by the original $80 to find the discount amount, which was $20. Finally, because a discount means the price goes down, I subtracted that $20 from the original $80 to get the final price of $60."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "That's a perfect explanation. You correctly identified the difference between the percentage, the discount amount, and the final price. Well done!"
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Time and work",
+  "problem": "If 5 people can paint a house in 10 days, how many days will it take 2 people to paint the same house, assuming everyone works at the same rate?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I'm trying to solve this painting problem. Since 2 is smaller than 5, I thought I should use a ratio. Maybe 2/5 of 10? That would be 4 days."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "Let's think about the logic for a moment. If you have fewer people working on the same house, do you think the job will be finished faster or will it take longer?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Oh, wait. If there are fewer people, it should take more time. So 4 days can't be right because that's faster than 10 days."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "Exactly. This is what we call an 'inverse' relationship. To solve this, it helps to find the total amount of work needed. If one person had to do the whole job alone, how many days of work would that be in total?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "If 5 people take 10 days... maybe I add them? 15 days for one person?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "Not quite adding. Think of it this way: Every day, 5 people are contributing a full day's worth of work. If they do that for 10 days, how many 'man-days' of effort have been put into the house?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "I see, so it's 5 times 10? That would be 50 total days of work if only one person was doing it."
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "Correct! 50 man-days is the total work required. Now, if you have 2 people sharing those 50 man-days of work, how would you find out how long it takes them?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "I should multiply again, right? So 50 times 2 is 100 days?"
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "If two people are working together, they should be faster than one person working alone, right? If one person takes 50 days, would two people take more time or less time?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Less time! So I should divide. 50 divided by 2 is... 20 days?"
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "You're very close! Just double-check your division. What is 50 divided by 2?"
+    },
+    {
+      "turn": 13,
+      "speaker": "student",
+      "text": "Oops, half of 50 is 25. So it takes 25 days."
+    },
+    {
+      "turn": 14,
+      "speaker": "tutor",
+      "text": "Spot on! 25 days is the correct answer. Now, to make sure you've got the concept down, can you explain in your own words why we multiplied first and then divided?"
+    },
+    {
+      "turn": 15,
+      "speaker": "student",
+      "text": "Sure. We multiply the original number of people by the days to find the 'total work' needed for the job, which stays the same no matter how many people work. Then, because more people means the work gets done faster, we divide that total work by the new number of people to see how those days are split up among them."
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Percentages",
+  "problem": "An item originally costs $40. Its price is increased to $50. What is the percentage increase?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I'm looking at this problem. The price goes from $40 to $50. Since the difference is 10, I think the answer is 10%. Is that correct?"
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "You've correctly identified that the price increased by $10, which is a great first step. However, a percentage represents a part of a whole. If the price was $100 and it went up by $10, that would be 10%. But here, our starting point is different. Does that make sense?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Oh, I think I see. So I should compare the $10 to the new price? Like 10 out of 50? That would be 20%."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "That's a very common mistake! When we calculate an 'increase,' we want to know how much the price grew relative to where it *started*. If you use the new price ($50), you're calculating what percentage of the final price the increase represents, rather than the growth from the original. Which number should be our 'base' for the calculation?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Okay, so the base should be the original price, $40. So I do 10 divided by 40. That's 1/4, which is 0.4, right? So 40%?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "You're definitely on the right track by using 10 divided by 40! But let's look at that decimal again. Think about a pizza cut into 4 slices. If you eat 1 slice (1/4), what decimal or percentage of the pizza is that? Is it 0.4 or something else?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Wait, 1/4 is like a quarter... so 0.25. My bad, I got mixed up with the numbers."
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "No problem at all! You corrected it quickly. So if 1/4 is 0.25, how do we convert that decimal into a percentage?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "We multiply 0.25 by 100, which gives us 25%. So the price increased by 25%?"
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Spot on! 25% is the correct answer. To make sure you've got this down for next time, can you explain in your own words the rule we used to find this percentage increase?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Sure! First, you find the actual amount of the change by subtracting the old price from the new price. Then, you divide that change by the original starting price—not the new one—because you want to see how much the original amount grew. Finally, you turn that fraction into a decimal and multiply by 100 to get the percentage."
+    }
+  ]
+}
+]

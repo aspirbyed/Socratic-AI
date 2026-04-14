@@ -1,0 +1,105 @@
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "response": "If you did that, Alice would get $300 and Bob would get $450. Does that make sense if we only have $150 to start with? Think of the ratio as 'parts' of a whole.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "Provides a fairly direct hint by calculating the incorrect result for the student and providing the 'parts of a whole' framing."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 4,
+            "response": "Not quite multiplication. If Alice gets 2 parts and Bob gets 3 parts, how many parts are being handed out in total?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Provides a correction and points the student toward the specific next step of finding the sum of the ratio parts."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 6,
+            "response": "Exactly. Now, if the entire $150 is made up of these 5 equal parts, how can we find the value of just one single part?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Directs the student to the next logical step in the unitary method (finding the value of one part)."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 8,
+            "response": "Remember, we decided the 'whole' is made of 5 parts. We need to split that $150 into 5 equal piles. What is 150 divided by 5?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 2,
+                    "reason": "Very direct; names the specific operation and provides the numbers for the student to calculate."
+                }
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 10,
+            "response": "Spot on. Now, looking at the ratio 2:3 for Alice and Bob, how many of those $30 parts does Bob get?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Narrows the focus to Bob's specific share of the ratio to lead toward the final answer."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 12,
+            "response": "Close, but look at the order in the problem: 'Alice and Bob in the ratio 2:3'. Usually, the first name matches the first number. Who corresponds to the 3?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "Explains the mapping convention directly to help the student correct a mapping error."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 14,
+            "response": "That's correct! Just to be sure, how much would Alice get, and do their totals add back up to $150?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Suggests a specific action (verification) to ensure the student understands the consistency of the solution."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 16,
+            "response": "Perfect. To wrap up, can you explain the general rule for dividing a total into a ratio in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "Strongly and explicitly asks the student to explain the process in their own words."
+                },
+                "Conceptual Integration": {
+                    "score": 5,
+                    "reason": "Targets the general principle and procedure for the entire topic."
+                }
+            },
+            "total_score": 10
+        }
+    ],
+    "overall_comments": "The tutor maintains a high level of scaffolding, effectively guiding a beginner through the unitary method for ratios. While some hints are quite direct (lowering minimality), the tutor successfully leads the student through a productive struggle and concludes with a strong synthesis prompt to ensure long-term internalization."
+}

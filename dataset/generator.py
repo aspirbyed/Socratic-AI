@@ -1,6 +1,7 @@
 from google import genai
 import os
 from pathlib import Path
+import json
 
 try:
     from dotenv import load_dotenv
@@ -18,10 +19,27 @@ client = genai.Client(api_key=api_key)
 
 prompt_path = Path(__file__).resolve().parents[1] / "dataset_generation_prompt.md"
 prompt_text = prompt_path.read_text(encoding="utf-8")
+output_path = Path(__file__).resolve().parent / "gemini_convos.json"
 
-response = client.models.generate_content(
-    model="gemini-3-flash-preview", contents=prompt_text
-)
-output_path = Path(__file__).resolve().parent / "response.json"
-output_path.write_text(response.text, encoding="utf-8")
-print(response.text)
+
+with output_path.open("a", encoding="utf-8") as f:
+        f.write("[\n")  # Initialize the file with an empty JSON array
+    
+
+        for i in range(3):
+                response = client.models.generate_content(
+                        model="gemini-3-flash-preview", contents=prompt_text
+                )
+
+                f.write(response.text)
+                f.write(",\n" if i < 2 else "\n")  # Add a comma after each conversation except the last one
+
+        f.write("]")  # Close the JSON array
+
+# print(response.text)
+
+# get 2nd conversation and print it out
+
+with open(output_path, "r", encoding="utf-8") as f:
+        convos = json.load(f)
+        print(convos[1])  # Print the 2nd conversation (0-indexed)
