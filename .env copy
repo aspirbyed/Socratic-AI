@@ -1,0 +1,7 @@
+OR_key="put open router api key here"
+
+OR_key2="put open router api key here"
+
+GROQ_key="put groq(NOT grok) api key here"
+
+GEMINI_API_KEY="put gemini api key here"

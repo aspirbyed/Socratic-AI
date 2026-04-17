@@ -1,0 +1,322 @@
+[
+{
+  "turn_by_turn_scores": [
+    {
+      "turn_number": 2,
+      "speaker": "tutor",
+      "response": "If you did that, Alice would get $300 and Bob would get $450. Does that make sense if we only have $150 to start with? Think of the ratio as 'parts' of a whole.",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 4,
+          "reason": "Points out the logical inconsistency of the student's proposed method and provides a conceptual hint ('parts of a whole')."
+        }
+      },
+      "total_score": 4,
+      "reason": "The tutor uses the student's incorrect calculation to highlight a flaw and offers a conceptual hint about 'parts' to guide the student."
+    },
+    {
+      "turn_number": 4,
+      "speaker": "tutor",
+      "response": "Not quite multiplication. If Alice gets 2 parts and Bob gets 3 parts, how many parts are being handed out in total?",
+      "state": "Diagnosis",
+      "metrics": {
+        "Open-Endedness": {
+          "score": 4,
+          "reason": "Asks for the total number of parts based on the given ratio parts, requiring more than a one-word answer."
+        },
+        "Non-Leading": {
+          "score": 5,
+          "reason": "The question is neutral and directly probes the student's understanding of combining ratio parts."
+        }
+      },
+      "total_score": 9,
+      "reason": "The tutor clarifies that multiplication is incorrect for finding total parts and asks a question to elicit the student's reasoning about combining the given ratio numbers."
+    },
+    {
+      "turn_number": 6,
+      "speaker": "tutor",
+      "response": "Exactly. Now, if the entire $150 is made up of these 5 equal parts, how can we find the value of just one single part?",
+      "state": "Diagnosis",
+      "metrics": {
+        "Open-Endedness": {
+          "score": 5,
+          "reason": "Asks how to find the value of one part given the total and the number of parts, requiring a multi-step explanation of the process."
+        },
+        "Non-Leading": {
+          "score": 5,
+          "reason": "The question is neutral and directly asks about the calculation needed to find the value of a single part."
+        }
+      },
+      "total_score": 10,
+      "reason": "After confirming the total number of parts, the tutor asks an open-ended question that prompts the student to explain how to determine the value of a single part."
+    },
+    {
+      "turn_number": 8,
+      "speaker": "tutor",
+      "response": "Remember, we decided the 'whole' is made of 5 parts. We need to split that $150 into 5 equal piles. What is 150 divided by 5?",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 3,
+          "reason": "Directly asks the calculation needed and provides context ('split that $150 into 5 equal piles')."
+        }
+      },
+      "total_score": 3,
+      "reason": "The tutor provides a direct hint by reminding the student of the total parts and then asks a specific calculation question, guiding the student towards the correct operation."
+    },
+    {
+      "turn_number": 10,
+      "speaker": "tutor",
+      "response": "Spot on. Now, looking at the ratio 2:3 for Alice and Bob, how many of those $30 parts does Bob get?",
+      "state": "Diagnosis",
+      "metrics": {
+        "Open-Endedness": {
+          "score": 4,
+          "reason": "Asks the student to identify how many parts Bob receives based on the ratio, requiring reference to the ratio and the determined value of a part."
+        },
+        "Non-Leading": {
+          "score": 5,
+          "reason": "The question is neutral and directly asks which part of the ratio corresponds to Bob."
+        }
+      },
+      "total_score": 9,
+      "reason": "The tutor confirms the student's calculation for the value of a single part and then asks a question that requires the student to connect the ratio to the calculated part value for Bob."
+    },
+    {
+      "turn_number": 12,
+      "speaker": "tutor",
+      "response": "Close, but look at the order in the problem: 'Alice and Bob in the ratio 2:3'. Usually, the first name matches the first number. Who corresponds to the 3?",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 4,
+          "reason": "Gives a strong cue by referencing the order in the problem statement and the convention of matching names to numbers."
+        }
+      },
+      "total_score": 4,
+      "reason": "The tutor points out the student's error in assigning ratio parts and provides a clear hint by referring to the order of names and numbers in the problem statement."
+    },
+    {
+      "turn_number": 14,
+      "speaker": "tutor",
+      "response": "That's correct! Just to be sure, how much would Alice get, and do their totals add back up to $150?",
+      "state": "Diagnosis",
+      "metrics": {
+        "Open-Endedness": {
+          "score": 5,
+          "reason": "Asks for two distinct pieces of information (Alice's share and the total sum) that require calculation and verification, prompting a multi-sentence explanation."
+        },
+        "Non-Leading": {
+          "score": 5,
+          "reason": "The question is neutral and asks the student to perform calculations to verify their answer and a related calculation."
+        }
+      },
+      "total_score": 10,
+      "reason": "The tutor confirms the student's answer and then asks two open-ended questions to ensure full understanding and encourage self-verification."
+    },
+    {
+      "turn_number": 16,
+      "speaker": "tutor",
+      "response": "Perfect. To wrap up, can you explain the general rule for dividing a total into a ratio in your own words?",
+      "state": "Synthesis",
+      "metrics": {
+        "Explanation Prompting": {
+          "score": 5,
+          "reason": "Explicitly asks for a general rule explanation 'in your own words'."
+        },
+        "Conceptual Integration": {
+          "score": 5,
+          "reason": "Strongly prompts for the underlying principle of dividing a total into a ratio."
+        }
+      },
+      "total_score": 10,
+      "reason": "The tutor asks the student to articulate the general rule for solving ratio division problems, moving from specific problem-solving to conceptual understanding."
+    }
+  ],
+  "overall_comments": "The tutor effectively guides the student through the problem using a combination of diagnosis and support. The hints provided are minimal and encourage productive struggle. The conversation culminates in a strong synthesis question that prompts the student to articulate the general rule."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "If you did that, Alice would get $300 and Bob would get $450. Does that make sense if we only have $150 to start with? Think of the ratio as 'parts' of a whole.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "Provides a directional hint without giving the final answer"}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Not quite multiplication. If Alice gets 2 parts and Bob gets 3 parts, how many parts are being handed out in total?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of the number of parts"},
+                "Non-Leading": {"score": 5, "reason": "No hint or guidance provided"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Exactly. Now, if the entire $150 is made up of these 5 equal parts, how can we find the value of just one single part?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Seeks explanation of how to find one part"},
+                "Non-Leading": {"score": 5, "reason": "Neutral question with no hints"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Remember, we decided the 'whole' is made of 5 parts. We need to split that $150 into 5 equal piles. What is 150 divided by 5?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "Presents a direct, actionable question that guides the student"}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Spot on. Now, looking at the ratio 2:3 for Alice and Bob, how many of those $30 parts does Bob get?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of Bob's part count"},
+                "Non-Leading": {"score": 5, "reason": "Neutral probing without hints"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "Close, but look at the order in the problem: 'Alice and Bob in the ratio 2:3'. Usually, the first name matches the first number. Who corresponds to the 3?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Asks for clarification of mapping names to numbers"},
+                "Non-Leading": {"score": 5, "reason": "No hint or suggestion, purely diagnostic"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "That's correct! Just to be sure, how much would Alice get, and do their totals add back up to $150?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires calculation and verification"},
+                "Non-Leading": {"score": 5, "reason": "Neutral confirmation plus question"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 16,
+            "speaker": "tutor",
+            "response": "Perfect. To wrap up, can you explain the general rule for dividing a total into a ratio in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strongly asks for explanation in own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets general principle of ratio division"}
+            },
+            "total_score": 10
+        }
+    ],
+    "overall_comments": "The conversation demonstrates strong Socratic probing with frequent diagnosis and supportive hints. The final synthesis prompt effectively consolidates learning."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "If you did that, Alice would get $300 and Bob would get $450. Does that make sense if we only have $150 to start with? Think of the ratio as 'parts' of a whole.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a conceptual cue ('think of the ratio as parts') that directs the student without giving the exact next step."}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Not quite multiplication. If Alice gets 2 parts and Bob gets 3 parts, how many parts are being handed out in total?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 2, "reason": "Requires a short numeric answer, not a multi‑sentence explanation."},
+                "Non-Leading": {"score": 5, "reason": "Neutral question, no hint toward the correct answer."}
+            },
+            "total_score": 7
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Exactly. Now, if the entire $150 is made up of these 5 equal parts, how can we find the value of just one single part?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 3, "reason": "Invites the student to describe the procedure (e.g., division), requiring a sentence or two."},
+                "Non-Leading": {"score": 5, "reason": "Question is neutral and does not suggest a specific operation."}
+            },
+            "total_score": 8
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Remember, we decided the 'whole' is made of 5 parts. We need to split that $150 into 5 equal piles. What is 150 divided by 5?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Directs the student to perform a specific division without providing the result."}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Spot on. Now, looking at the ratio 2:3 for Alice and Bob, how many of those $30 parts does Bob get?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 2, "reason": "Calls for a short numeric answer (Bob's share)." },
+                "Non-Leading": {"score": 5, "reason": "Neutral prompt, no hint toward the multiplication."}
+            },
+            "total_score": 7
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "Close, but look at the order in the problem: 'Alice and Bob in the ratio 2:3'. Usually, the first name matches the first number. Who corresponds to the 3?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 2, "reason": "Seeks a brief identification answer."},
+                "Non-Leading": {"score": 5, "reason": "Neutral question, merely reminding the student of the convention."}
+            },
+            "total_score": 7
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "That's correct! Just to be sure, how much would Alice get, and do their totals add back up to $150?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 3, "reason": "Requests two related calculations; expects short numerical responses."},
+                "Non-Leading": {"score": 5, "reason": "Neutral inquiry, no guidance toward a specific method."}
+            },
+            "total_score": 8
+        },
+        {
+            "turn_number": 16,
+            "speaker": "tutor",
+            "response": "Perfect. To wrap up, can you explain the general rule for dividing a total into a ratio in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong request for the student to articulate the rule in their own words."},
+                "Conceptual Integration": {"score": 5, "reason": "Directly asks for the underlying principle governing ratio division."}
+            },
+            "total_score": 10
+        }
+    ],
+    "overall_comments": "The tutor largely follows a Socratic approach, alternating between diagnostic questions and supportive hints, and ends with a synthesis prompt. Hints are appropriate and concise, while diagnostic questions are mostly neutral, though a few could be more open-ended."
+}
+]

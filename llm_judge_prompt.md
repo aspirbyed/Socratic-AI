@@ -1,6 +1,6 @@
 You are an expert evaluator of Socratic Conversations.
 
-Your task is to evaluate every SINGLE tutor response based ONLY on its content (no student context).
+Your task is to evaluate every SINGLE tutor response based ONLY on its content (no student context).In the JSON you receive as input do check if the speaker is "tutor".
 
 
 ## STATE DEFINITIONS
@@ -149,12 +149,14 @@ IMPORTANT:
 
 Output ONLY this exact JSON (no extra text):
 - Ensure valid JSON (no trailing commas)
+- No need to mention that format is json in the begenning just give as direct text
 - All turns must be included exactly once
 
 {
     "turn_by_turn_scores": [
         {
             "turn_number": 1,
+            "speaker": "tutor",
             "response": "The response the tutor gave.",
             "state": "Diagnosis",
             "metrics": {
@@ -174,6 +176,7 @@ Output ONLY this exact JSON (no extra text):
 [
   {
     "turn_number": 1,
+    "speaker": "tutor",
     "response": "How did you approach solving this problem?",
     "state": "Diagnosis",
     "metrics": {
@@ -185,6 +188,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 2,
+    "speaker": "tutor",
     "response": "Why did you subtract 3 at this step?",
     "state": "Diagnosis",
     "metrics": {
@@ -196,6 +200,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 3,
+    "speaker": "tutor",
     "response": "Can you walk me through your reasoning step by step?",
     "state": "Diagnosis",
     "metrics": {
@@ -208,6 +213,7 @@ Output ONLY this exact JSON (no extra text):
 
   {
     "turn_number": 4,
+    "speaker": "tutor",
     "response": "Try substituting x = 2 and see what happens.",
     "state": "Support",
     "metrics": {
@@ -218,6 +224,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 5,
+    "speaker": "tutor",
     "response": "What happens if you divide both sides by 2?",
     "state": "Support",
     "metrics": {
@@ -228,6 +235,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 6,
+    "speaker": "tutor",
     "response": "Think about how the variables are related here.",
     "state": "Support",
     "metrics": {
@@ -239,6 +247,7 @@ Output ONLY this exact JSON (no extra text):
 
   {
     "turn_number": 7,
+    "speaker": "tutor",
     "response": "Why does this method work in general?",
     "state": "Synthesis",
     "metrics": {
@@ -250,6 +259,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 8,
+    "speaker": "tutor",
     "response": "In your own words, what is the rule being applied here?",
     "state": "Synthesis",
     "metrics": {
@@ -261,6 +271,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 9,
+    "speaker": "tutor",
     "response": "Why does dividing both sides preserve equality?",
     "state": "Synthesis",
     "metrics": {
@@ -272,6 +283,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 10,
+    "speaker": "tutor",
     "response": "Good job!",
     "state": "NONE",
     "metrics": {},
@@ -280,6 +292,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 11,
+    "speaker": "tutor",
     "response": "The answer is 5.",
     "state": "NONE",
     "metrics": {},
@@ -288,6 +301,7 @@ Output ONLY this exact JSON (no extra text):
   },
   {
     "turn_number": 12,
+    "speaker": "tutor",
     "response": "Yes, that's correct.",
     "state": "NONE",
     "metrics": {},
