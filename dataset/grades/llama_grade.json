@@ -1,0 +1,315 @@
+[
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Let's break it down together. What happens if we take the difference between each pair of numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 5,
+                    "reason": "The question asks for an action and its outcome, requiring explanation of a process rather than a simple answer."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is neutral and does not hint at the specific type of pattern or the correct answer."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "That's close. What if we looked at the differences as a sequence in itself?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "This response provides a nudge by suggesting how to view the previously calculated differences, guiding the student without giving away the next step."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "You're on the right track. Remember how the original sequence had numbers increasing by a certain rule? Maybe it's similar for the differences.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "The tutor confirms the student is on the right track and offers a hint by drawing a parallel to the original sequence's pattern, encouraging the student to look for a similar pattern in the differences."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's a great guess! Let's check it. What would be the next difference if we followed that pattern?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 5,
+                    "reason": "The question asks for the student to calculate a value based on their hypothesized pattern, requiring them to explain their reasoning by performing the calculation."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is neutral, asking the student to apply their perceived pattern without confirming or denying its correctness, and not suggesting the next step."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "You were doing so well! Just take your time. What's the last number we had before this one?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 5,
+                    "reason": "This is a minimal hint, reminding the student of a piece of information from the original problem (the last number) that they need to complete the calculation. It doesn't give away the next step but helps recall necessary data."
+                }
+            },
+            "total_score": 5
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "Good. Now add that next difference to get your answer.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "This is a direct instruction on how to use the previously identified difference and the last number to find the final answer."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "Excellent job! Now can you explain why this method works? What's the rule behind it?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "The question explicitly asks the student to explain 'why this method works' and 'what's the rule behind it', which are strong prompts for generalization."
+                },
+                "Conceptual Integration": {
+                    "score": 5,
+                    "reason": "The question directly targets the underlying principle and rule of the number sequence pattern, aiming for conceptual understanding."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 16,
+            "speaker": "tutor",
+            "response": "That's perfect! You clearly understood what was happening and applied it correctly.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor effectively uses a combination of diagnosis and support to guide the student through the problem. The progression from identifying differences to analyzing those differences as a sequence is well-scaffolded. The final turn successfully prompts for synthesis, although the student's response is a bit superficial."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Let's break it down together. What happens if we take the difference between each pair of numbers?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Offers a fairly direct hint to take differences"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "That's close. What if we looked at the differences as a sequence in itself?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Suggests a specific next step, fairly direct"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "You're on the right track. Remember how the original sequence had numbers increasing by a certain rule? Maybe it's similar for the differences.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a hint about similarity, guiding thought"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's a great guess! Let's check it. What would be the next difference if we followed that pattern?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Directly prompts calculation of next difference"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "You were doing so well! Just take your time. What's the last number we had before this one?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 1, "reason": "Requires only a single number recall"},
+                "Non-Leading": {"score": 5, "reason": "No hints present"}
+            },
+            "total_score": 6
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "Good. Now add that next difference to get your answer.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 2, "reason": "Names the correct next step explicitly"}
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "Excellent job! Now can you explain why this method works? What's the rule behind it?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 16,
+            "speaker": "tutor",
+            "response": "That's perfect! You clearly understood what was happening and applied it correctly.",
+            "state": "NONE",
+            "metrics": {}
+        }
+    ],
+    "overall_comments": "The tutor frequently used hints, limiting diagnostic questioning. Superior synthesis at the end encouraged reflection, but overall guidance was more directive than exploratory."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Let's break it down together. What happens if we take the difference between each pair of numbers?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "Provides a clear actionable hint to compute differences, but does not reveal any answer."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "That's close. What if we looked at the differences as a sequence in itself?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "Suggests a new perspective (treat differences as a sequence) guiding the student without giving the solution."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "You're on the right track. Remember how the original sequence had numbers increasing by a certain rule? Maybe it's similar for the differences.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Offers a subtle cue to consider the same rule for differences, a small nudge rather than a direct step."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's a great guess! Let's check it. What would be the next difference if we followed that pattern?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Guides the student to calculate the next difference, a concrete hint without revealing the final number."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "You were doing so well! Just take your time. What's the last number we had before this one?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 2,
+                    "reason": "Requests a specific short answer (the previous number), not a multi‑sentence explanation."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "Neutral question; does not hint at any particular answer."
+                }
+            },
+            "total_score": 7
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "Good. Now add that next difference to get your answer.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 2,
+                    "reason": "Directly names the required operation (add the next difference), giving a fairly explicit step."
+                }
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "Excellent job! Now can you explain why this method works? What's the rule behind it?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "Strong request for the student to explain the reasoning in their own words."
+                },
+                "Conceptual Integration": {
+                    "score": 5,
+                    "reason": "Explicitly asks for the underlying rule, linking to the general concept."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 16,
+            "speaker": "tutor",
+            "response": "That's perfect! You clearly understood what was happening and applied it correctly.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor predominantly provided supportive hints, with one diagnosis question and a synthesis prompt. Most interventions were appropriate, though the final praise lacked any Socratic element and was classified as NONE."
+}
+]

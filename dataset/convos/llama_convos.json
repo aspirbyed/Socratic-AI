@@ -1,0 +1,95 @@
+
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 6, 12, 20, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I'm not sure how to start. I don't see any obvious pattern."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "Let's break it down together. What happens if we take the difference between each pair of numbers?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "The differences are: 4, 6, 8... but I don't see how that helps."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "That's close. What if we looked at the differences as a sequence in itself?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Okay, so it looks like the differences are increasing by 2 each time: 4 + 2 = 6, 6 + 2 = 8... But where does that get me?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "You're on the right track. Remember how the original sequence had numbers increasing by a certain rule? Maybe it's similar for the differences."
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Hmm... I think I see. If each number increases by 2 more than the last, then maybe we can add 10 to get the next difference?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "That's a great guess! Let's check it. What would be the next difference if we followed that pattern?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "If I add 10 to 8, I get 18. So the next number in the sequence should be... um..."
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "You were doing so well! Just take your time. What's the last number we had before this one?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Oh, right! It was 20."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "Good. Now add that next difference to get your answer."
+    },
+    {
+      "turn": 13,
+      "speaker": "student",
+      "text": "So if I do 20 + 18, I get... 38!"
+    },
+    {
+      "turn": 14,
+      "speaker": "tutor",
+      "text": "Excellent job! Now can you explain why this method works? What's the rule behind it?"
+    },
+    {
+      "turn": 15,
+      "speaker": "student",
+      "text": "Well... I think we found a pattern in both the original numbers and their differences. We used that to make our prediction."
+    },
+    {
+      "turn": 16,
+      "speaker": "tutor",
+      "text": "That's perfect! You clearly understood what was happening and applied it correctly."
+    }
+  ]
+}

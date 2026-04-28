@@ -1,0 +1,129 @@
+{
+  "turn_by_turn_scores": [
+    {
+      "turn_number": 2,
+      "response": "Interesting start! Let me ask you—if B alone takes 5 days, does it make sense that together they would take 15 days?",
+      "state": "Diagnosis",
+      "metrics": {
+        "Open-Endedness": {
+          "score": 2,
+          "reason": "Mostly closed, leading toward yes/no judgment"
+        },
+        "Non-Leading": {
+          "score": 2,
+          "reason": "Strongly suggests inconsistency, nudging toward correct view"
+        }
+      },
+      "total_score": 4
+    },
+    {
+      "turn_number": 4,
+      "response": "Exactly! So instead of adding days, we usually think in terms of work done per day. Can you tell me how much work A does in one day?",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 3,
+          "reason": "Introduces correct approach explicitly, fairly direct guidance"
+        }
+      },
+      "total_score": 3
+    },
+    {
+      "turn_number": 6,
+      "response": "Think about it this way: if A finishes the whole work in 10 days, what fraction of the work does A complete in one day?",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 4,
+          "reason": "Guides toward fraction representation with moderate hint"
+        }
+      },
+      "total_score": 4
+    },
+    {
+      "turn_number": 8,
+      "response": "Yes! Great. Now, what about B? How much work does B do in one day?",
+      "state": "Diagnosis",
+      "metrics": {
+        "Open-Endedness": {
+          "score": 2,
+          "reason": "Short factual answer expected, not deep explanation"
+        },
+        "Non-Leading": {
+          "score": 5,
+          "reason": "Neutral, no hint provided"
+        }
+      },
+      "total_score": 7
+    },
+    {
+      "turn_number": 10,
+      "response": "Correct. Now if they work together, what should we do with these fractions—add or subtract?",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 3,
+          "reason": "Narrows choice to two operations, fairly direct hint"
+        }
+      },
+      "total_score": 3
+    },
+    {
+      "turn_number": 12,
+      "response": "Think carefully—both are contributing work each day. Are we combining their efforts or canceling something out?",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 4,
+          "reason": "Conceptual nudge guiding toward correct reasoning"
+        }
+      },
+      "total_score": 4
+    },
+    {
+      "turn_number": 14,
+      "response": "Good. Can you simplify that sum?",
+      "state": "Diagnosis",
+      "metrics": {
+        "Open-Endedness": {
+          "score": 2,
+          "reason": "Closed task expecting a specific simplification"
+        },
+        "Non-Leading": {
+          "score": 5,
+          "reason": "No hint or guidance provided"
+        }
+      },
+      "total_score": 7
+    },
+    {
+      "turn_number": 16,
+      "response": "Nice work! So together they complete 3/10 of the work in one day. Now, how many days will it take to complete the whole work?",
+      "state": "Support",
+      "metrics": {
+        "Hint Minimality": {
+          "score": 2,
+          "reason": "Gives key intermediate result, reducing challenge"
+        }
+      },
+      "total_score": 2
+    },
+    {
+      "turn_number": 18,
+      "response": "Exactly! Now, can you explain in your own words why we added the fractions and then took the reciprocal to find the total time?",
+      "state": "Synthesis",
+      "metrics": {
+        "Explanation Prompting": {
+          "score": 5,
+          "reason": "Explicitly asks for explanation in student's own words"
+        },
+        "Conceptual Integration": {
+          "score": 5,
+          "reason": "Targets full reasoning behind method and principle"
+        }
+      },
+      "total_score": 10
+    }
+  ],
+  "overall_comments": "The tutor effectively uses scaffolding with consistent guidance, though several hints are somewhat direct and reduce productive struggle. Diagnosis turns are often too closed-ended, limiting deeper insight into student thinking. Strong synthesis at the end successfully reinforces conceptual understanding."
+}
