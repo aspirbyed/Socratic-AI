@@ -36,8 +36,12 @@ if not grade_path.is_absolute():
 		grade_path = grades_dir / grade_path.name
 data = json.loads(grade_path.read_text(encoding="utf-8"))
 
+cnt=0
+average_percent = 0
+average=0
 for convo in data:
-
+	cnt+=1
+	
 	total_score = 0
 	max_score = 0
 	total_turns=0
@@ -64,5 +68,12 @@ for convo in data:
 	print(f"Support turns: {sup}")
 	print(f"Synthesis turns: {syn}")
 	print(f"Total turns: {total_turns}\n")
+	average_percent+= total_score / max_score * 100
+	average+= total_score / max_score * 100
 
+	if(cnt%3==0):
+		print(f"convo score: {average_percent / 3:.2f}%\n")
+		average_percent=0
+
+print(f"Average score across all conversations: {average / cnt:.2f}%")
 

@@ -1,0 +1,725 @@
+[
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 4, 8, 16, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I don't understand how to find the pattern."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "Have you noticed any relationship between these numbers?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "I think they're just random numbers. Maybe it's a code or something."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "Actually, these numbers are related to powers of 2. Can you see the pattern now?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Huh? I don't get it. Why do we need powers of 2?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "Think about what happens when you double a number... Do that with each number in the sequence."
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Oh, I think I see! The next number should be... 32?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "Good job! Now, can you explain why this method works in your own words?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Well... we're doubling each number to get the next one. It's like multiplying by 2, but with a pattern."
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Exactly! You're applying the rule of powers of 2. Great job understanding it now."
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 4, 8, 16, __",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I'm not sure what's going on here. Is it a pattern or something?"
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "Great start! Let's see... What do you notice about the first number, 2? Does anything jump out at you?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Uh, no. I mean, it's just a number. Why does that matter?"
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "Well, let me give you a hint: the pattern is related to how numbers are doubled."
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Oh, I see! So it's like... um... 2 * 2 = 4?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "That's a good start! But remember, the sequence goes 2, 4, 8, 16. How do you think we get from 4 to 8?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Hmm... is it 4 + 4? No, that can't be right..."
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "That's okay! We all get stuck sometimes. Let me give you another hint: think about what happens when you double a number."
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Oh, I see now! It's like... we just multiply by 2 again: 4 * 2 = 8. And then from 8 to 16 is... 8 * 2 = 16."
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Exactly! Now, can you use this pattern to find the next number in the sequence?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Okay... so if we double 16, that's... 32!"
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "That is correct! Now, can you explain to me in your own words why this pattern works?"
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 6, 12, 20, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I think it's a simple addition problem. Let me add... uh... *counts on fingers* ...24?"
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "What made you think of using addition? Was there something in the sequence that hinted at that?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Well, each number is bigger than the last one... and they all have a '2' in them. Maybe it's just adding 4 every time?"
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "That's not quite correct. What happens if we look at the difference between each pair of numbers? For example, 6 - 2 = ?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Uh... that would be 4! But I don't see how that helps..."
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "Here's a hint: when we add a certain number to each term, the differences between terms will change. Think about what number you could be adding to each term."
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Hmmm... I'm not sure. Is it like, multiplying by something? Because that's how I'd get from 2 to 6..."
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "You're on the right track! Remember, the differences between terms change when we add a certain number. What if you looked at what gets added each time?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Wait... I think I see! It's like, 2 + 4 = 6, and then 6 + 6 = 12. So each time we're adding the next number in the sequence!"
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "That's absolutely right! Now, can you figure out what gets added to get from 20 to the next term?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Let me see... if I keep adding 6 each time, that would make it 26!"
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "Excellent job! Now, can you explain in your own words why this sequence works the way it does?"
+    },
+    {
+      "turn": 13,
+      "speaker": "student",
+      "text": "It's because each time we add the next number in the sequence to get from one term to the next. It's like building a tower, and each new block is added on top of the last one."
+    },
+    {
+      "turn": 14,
+      "speaker": "tutor",
+      "text": "That makes perfect sense! You've really grasped the pattern behind this sequence. Great job!"
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the series: 2, 4, 8, 16, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I don't know how to solve this. It doesn't look like a simple arithmetic progression."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "That's a good observation! Can you tell me what pattern you do see? Maybe it's not an arithmetic sequence, but there's something else going on."
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Well, the numbers are doubling. But that doesn't help with finding the next number."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "Doubling is a good start! Let's think about what would happen if we doubled the last number again... How does that look to you?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Uh, I think it would be too big. Maybe we need something smaller than doubling."
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "That's a good instinct! Sometimes, multiplication isn't the only way to find the next number in a sequence. Can you think of any other operations that might work?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Wait... If we add something instead of multiplying, it could be smaller. Is it maybe adding 2 each time?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "You're getting closer! But remember, the pattern isn't just about what's added or multiplied – think about how those operations relate to the starting number."
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "I see. If we start with 2 and keep adding 2 each time, it works perfectly: 2 + 2 = 4, 4 + 2 = 8, 8 + 2 = 16... Next one would be 16 + 2."
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Excellent job! Now, can you summarize in your own words why this pattern works the way it does?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "It's because we're adding a fixed number (2) each time, so it keeps increasing. The starting point is 2, and then we just add 2 to get the next number in the sequence."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "That's absolutely right! You nailed both the pattern and why it works. Well done!"
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 5, 8, 11, 14, ...",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I'm not sure. The numbers seem to be getting bigger."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "That's a good observation! What do you think is the pattern between each number?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Hmmm... I'm not sure. Maybe it's adding 1, then 2, then 3..."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "That's close! But actually, the difference between each number is increasing by one more than before."
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Wait... so it's like a sequence within a sequence? I'm confused..."
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "Think of it this way: the differences between each number are consecutive integers. Can you spot the next difference?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "I think I see! The differences are... 1, 2, 3, 4..."
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "Exactly! And if that's correct, what will the next number in the original sequence be?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "If the differences are consecutive integers... then I think it will be... 17!"
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Well done! Can you explain in your own words why this method works?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "It's because the differences between each number are getting bigger and bigger, by one more than before. So, if we keep that up... it should be 17!"
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "That's a great explanation! I'm proud of you for figuring this out."
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the series: 1, 2, 4, 7, 11, ?"
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the series: 2, 6, 12, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "Huh? I don't understand this. What's the pattern?"
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "That's okay, let's break it down together. What do you notice about the numbers?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "They all end in 2... or is that just a coincidence?"
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "Not quite. Think about the differences between each number. How much more is added each time?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Uh... it looks like 6 - 2 = 4, and 12 - 6 = 6? But that doesn't help me find the next number..."
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "You're on the right track. Remember, in a series like this, we usually look for some kind of pattern or rule."
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "A rule? Like an arithmetic progression?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "Actually, it's not quite that simple. Think about what happens when you add 4 to get from the first number to the second."
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Oh, I think I see! We're adding more and more each time... it's like a kind of... exponential increase?"
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "You're getting close. Remember that the difference between consecutive terms is increasing by a fixed amount."
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Okay, so... if we add 4 to get from 2 to 6, and then another 6 to get from 6 to 12... that means the next number should be..."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "What do you think it should be?"
+    },
+    {
+      "turn": 13,
+      "speaker": "student",
+      "text": "I think... if we add another 6 to get from 12 to the next number, that means we're looking for 18!"
+    },
+    {
+      "turn": 14,
+      "speaker": "tutor",
+      "text": "Excellent job! Now, can you explain why this method works in your own words?"
+    },
+    {
+      "turn": 15,
+      "speaker": "student",
+      "text": "Well... I think it's because the difference between consecutive terms is increasing by a fixed amount, and that amount is itself increasing by another fixed amount. So we're kind of 'adding more' each time."
+    },
+    {
+      "turn": 16,
+      "speaker": "tutor",
+      "text": "That makes perfect sense! I'm proud of you for figuring it out. Remember to apply this rule to other number series and see if you can spot similar patterns."
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 4, 8, 16, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I'm not sure how to solve this. It looks like a pattern but I don't see it."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "Okay, let's take a closer look. What do you notice about the numbers in the sequence?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "They're all even."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "That's correct! But is there something more specific about how they change from one to the next?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Hmm... I think each number is twice the previous one."
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "That's exactly right! This is a classic example of a geometric sequence. Okay, now that we've identified the pattern, can you tell me what the next number in the sequence would be?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "If each number is twice the previous one, then the next number should be... 32!"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "That's correct! The next number in the sequence is indeed 32. But can you explain to me why this rule works? What makes it so that each number is twice the previous one?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Okay, let me think about it... I think it's because of how we get from one number to the next. We multiply by two."
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "That's a great explanation! You've really got a handle on this now. Just to confirm, can you tell me in your own words what rule we're applying here and why it works?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Yeah, I think I understand now. We're multiplying by two each time because that's how the sequence is defined. It starts with 2 and then you get to the next number by doubling it."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "That's perfect! You've really got a clear understanding of this now. Keep practicing and you'll be a pro at solving these kinds of sequences in no time!"
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 5, 8, 11, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I don't know how to do this. Is it a pattern?"
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "What if I told you the difference between each number is always the same? Can you try finding that?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "Let me see... The first one is 5 - 2 = 3, and then it's 8 - 5 = 3 again. Is that right?"
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "That's almost correct! The difference between each number is indeed constant. However, there might be a simpler way to find the next number in the sequence."
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "Hmmm... I was thinking of adding 3 again, so it would be 14?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "That's a good guess, but let me ask you this: what if we didn't know the pattern? How could we figure it out without adding or subtracting numbers?"
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Uh... We could look for something that stays the same between each number?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "That's a great idea! Remember what we discussed earlier about the difference between numbers being constant? Can you relate that to this new thought of yours?"
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "I think I get it now. The pattern is adding 3 each time, and if we keep doing that, the next number in the sequence would be... 14!"
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "Excellent job! Now, can you explain why this method works? What rule are you applying here?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "We're looking for a pattern where the difference between each number is constant. It's like finding a hidden code in the numbers."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "That's beautifully put! You've not only solved the problem but also understood the reasoning behind it."
+    },
+    {
+      "turn": 13,
+      "speaker": "student",
+      "text": "Thanks to you, I think I understand now. It was a fun challenge!"
+    }
+  ]
+},
+{
+  "config": {
+    "socratic_level": "medium",
+    "student_level": "beginner",
+    "hint_frequency": "high",
+    "mistake_frequency": "high",
+    "verbosity": "medium",
+    "difficulty": "easy"
+  },
+  "topic": "Number series",
+  "problem": "Find the next number in the sequence: 2, 5, 8, 11, ?",
+  "conversation": [
+    {
+      "turn": 1,
+      "speaker": "student",
+      "text": "I don't understand how to find the next number."
+    },
+    {
+      "turn": 2,
+      "speaker": "tutor",
+      "text": "Let's take a look. Can you tell me what is happening between each number?"
+    },
+    {
+      "turn": 3,
+      "speaker": "student",
+      "text": "I think it's just adding 3 each time."
+    },
+    {
+      "turn": 4,
+      "speaker": "tutor",
+      "text": "That's a good guess, but let me ask you this: If the pattern is based on adding 3, what would be wrong with that?"
+    },
+    {
+      "turn": 5,
+      "speaker": "student",
+      "text": "I don't know... maybe it's not just about the numbers?"
+    },
+    {
+      "turn": 6,
+      "speaker": "tutor",
+      "text": "Exactly. It's not just about adding or subtracting, but also understanding the sequence itself."
+    },
+    {
+      "turn": 7,
+      "speaker": "student",
+      "text": "Hmm... how do I figure out what comes next?"
+    },
+    {
+      "turn": 8,
+      "speaker": "tutor",
+      "text": "Let's try breaking it down further. Look at the first two numbers and think about their relationship."
+    },
+    {
+      "turn": 9,
+      "speaker": "student",
+      "text": "Okay... they're both prime numbers?"
+    },
+    {
+      "turn": 10,
+      "speaker": "tutor",
+      "text": "That's correct. Now, can you think of a rule that explains the next number in the sequence?"
+    },
+    {
+      "turn": 11,
+      "speaker": "student",
+      "text": "Wait... I have an idea! What if we take each prime number and add a certain amount to get the next one? Maybe it's related to their position or something."
+    },
+    {
+      "turn": 12,
+      "speaker": "tutor",
+      "text": "You're absolutely on the right track. Let me ask you this: Can you now use your rule to predict what comes next?"
+    },
+    {
+      "turn": 13,
+      "speaker": "student",
+      "text": "I think I can! If we keep adding 3, but also take into account their positions as prime numbers... maybe it's like a mix of both patterns?"
+    },
+    {
+      "turn": 14,
+      "speaker": "tutor",
+      "text": "You're so close. Now, explain your rule in your own words."
+    },
+    {
+      "turn": 15,
+      "speaker": "student",
+      "text": "Okay... we take each prime number and add a certain amount based on its position. For the first two numbers, it's just adding 3 because they're both prime and close to each other. But then for the next ones, we need to adjust our addition to reflect their unique positions in the sequence."
+    },
+    {
+      "turn": 16,
+      "speaker": "tutor",
+      "text": "Exactly! You've found a way to balance the two patterns. Now, go ahead and calculate the next number using your rule."
+    }
+  ]
+}
+]

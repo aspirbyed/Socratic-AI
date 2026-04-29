@@ -1,0 +1,1859 @@
+[
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 5,
+                    "reason": "The question is fully open-ended, requiring the student to explain their observations and reasoning about the relationship between the numbers."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is completely neutral and does not provide any hints or suggest a specific direction for the student's thinking."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "The tutor directly states that the numbers are related to powers of 2, which is a significant hint that narrows down the pattern considerably."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "The tutor provides a nudge by suggesting to consider doubling a number and applying it to the sequence, guiding the student without giving the direct answer."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "The tutor explicitly asks the student to explain 'why this method works in your own words', which is a strong prompt for articulation of understanding."
+                },
+                "Conceptual Integration": {
+                    "score": 4,
+                    "reason": "The question targets the student's understanding of the underlying principle of the method used to solve the problem."
+                }
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor starts with a good diagnostic question to understand the student's initial thinking. However, the tutor quickly transitions to providing explicit hints rather than allowing for more productive struggle. The conversation ends with a synthesis question effectively prompting explanation, but the final tutor response is purely confirmatory and lacks pedagogical value."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires the student to explain a relationship, multiple sentences expected"},
+                "Non-Leading": {"score": 4, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 8
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Directly gives a specific hint (powers of 2) but does not supply the full solution"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "Provides a small, useful nudge to try doubling, encouraging independent exploration"}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt for the student to articulate the rule in their own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Asks for underlying principle behind the method"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor’s interactions mix diagnostic and supportive prompts effectively, with a strong synthesis moment. However, the final confirmation lacks instructional value."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires a multi‑sentence explanation of the relationship"},
+                "Non-Leading": {"score": 5, "reason": "Completely neutral, no hint toward a specific answer"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 2, "reason": "Directly reveals the key concept (powers of 2), which is a strong hint"}
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Suggests a specific action (doubling) that points to the next step"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt asking for a full explanation in the student's own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets the underlying principle of powers of 2"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor mostly used appropriate Socratic moves, with clear Diagnosis and Synthesis prompts. Two support hints were a bit strong, revealing the core concept, and the final turn was merely confirmatory, fitting the NONE category."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Great start! Let's see... What do you notice about the first number, 2? Does anything jump out at you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 5,
+                    "reason": "The question is open-ended, inviting the student to share any observations about the number 2."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is completely neutral and does not provide any hints or suggest a specific direction."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Well, let me give you a hint: the pattern is related to how numbers are doubled.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "Provides a direct hint about the nature of the pattern (doubling)."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "That's a good start! But remember, the sequence goes 2, 4, 8, 16. How do you think we get from 4 to 8?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 4,
+                    "reason": "Requires explanation of a specific step in the sequence."
+                },
+                "Non-Leading": {
+                    "score": 4,
+                    "reason": "While it points to a specific transition, it doesn't give away the method and asks for the student's reasoning."
+                }
+            },
+            "total_score": 8
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's okay! We all get stuck sometimes. Let me give you another hint: think about what happens when you double a number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Provides a subtle hint by asking the student to consider the concept of doubling."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! Now, can you use this pattern to find the next number in the sequence?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 4,
+                    "reason": "Asks the student to apply the identified pattern to find the next number, requiring some calculation and explanation of the process."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is neutral and asks the student to apply their understanding without any hints."
+                }
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "That is correct! Now, can you explain to me in your own words why this pattern works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "Explicitly asks for an explanation in the student's own words, targeting conceptual understanding."
+                },
+                "Conceptual Integration": {
+                    "score": 4,
+                    "reason": "Asks for the reasoning behind the pattern, linking it to a general concept."
+                }
+            },
+            "total_score": 9
+        }
+    ],
+    "overall_comments": "The tutor effectively guides the student through the problem using a mix of diagnostic questions and minimal hints. The conversation progresses well towards synthesis, where the student is prompted to explain the concept in their own words."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Fully open-ended, invites explanation of process"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 1, "reason": "Provides the full explanation of the pattern"}
+            },
+            "total_score": 1
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Direct instruction on how to proceed"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong request for explanation in own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Great start! Let's see... What do you notice about the first number, 2? Does anything jump out at you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Fully open-ended, invites process explanation"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Well, let me give you a hint: the pattern is related to how numbers are doubled.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Direct hint about doubling"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "That's a good start! But remember, the sequence goes 2, 4, 8, 16. How do you think we get from 4 to 8?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires specific reasoning about a step"},
+                "Non-Leading": {"score": 5, "reason": "No hints, purely diagnostic"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's okay! We all get stuck sometimes. Let me give you another hint: think about what happens when you double a number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Direct hint regarding doubling"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! Now, can you use this pattern to find the next number in the sequence?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires specific answer (next number)"},
+                "Non-Leading": {"score": 5, "reason": "No hints provided"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "That is correct! Now, can you explain to me in your own words why this pattern works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong request for explanation in own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets underlying principle"}
+            },
+            "total_score": 10
+        }
+    ],
+    "overall_comments": "The tutoring primarily uses Diagnostic questions and brief hints, with a few Synthesis prompts. However, several hints are overly explicit, revealing the answer rather than encouraging exploration. Overall, the session could use more subtle guidance to align better with Socratic teaching."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Great start! Let's see... What do you notice about the first number, 2? Does anything jump out at you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Invites a descriptive observation, requires sentence or more"},
+                "Non-Leading": {"score": 5, "reason": "Neutral, no hint toward a specific answer"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Well, let me give you a hint: the pattern is related to how numbers are doubled.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a fairly direct hint about the concept"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "That's a good start! But remember, the sequence goes 2, 4, 8, 16. How do you think we get from 4 to 8?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of the step, multi‑sentence likely"},
+                "Non-Leading": {"score": 5, "reason": "Completely neutral, no guidance toward a specific answer"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's okay! We all get stuck sometimes. Let me give you another hint: think about what happens when you double a number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "Small useful nudge directing attention to doubling"}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! Now, can you use this pattern to find the next number in the sequence?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 2, "reason": "Closed‑ended request for the next value, short answer expected"},
+                "Non-Leading": {"score": 5, "reason": "Neutral, does not suggest how to obtain the answer"}
+            },
+            "total_score": 7
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "That is correct! Now, can you explain to me in your own words why this pattern works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong request for full explanation in own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Directly asks for underlying principle of the pattern"}
+            },
+            "total_score": 10
+        }
+    ],
+    "overall_comments": "The tutor generally follows a Socratic approach, alternating diagnosis questions with helpful hints and ending with a synthesis prompt. Hint statements are appropriately classified as Support, and the final synthesis request is strong. Minor variability in openness of diagnosis questions could be improved."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 5,
+                    "reason": "The question is fully open-ended and requires the student to explain their observations about the relationship between the numbers."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is completely neutral and does not provide any hints or bias towards a specific answer."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "The response explicitly states that the numbers are related to powers of 2, which is a direct hint to the pattern."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "This is a subtle but effective hint, guiding the student to perform a specific operation (doubling) on each number in the sequence."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "This is a strong prompt that explicitly asks the student to explain the reasoning behind the method in their own words."
+                },
+                "Conceptual Integration": {
+                    "score": 5,
+                    "reason": "The question directly targets the underlying principle of why the identified pattern (powers of 2) works for the sequence."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor starts with a good diagnostic question but then provides direct hints rather than guiding the student to discover the pattern. The final turn is a confirmation without further Socratic engagement."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Fully open-ended, invites explanation of process"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a direct actionable hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets general principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Great start! Let's see... What do you notice about the first number, 2? Does anything jump out at you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Fully open-ended, invites explanation of process"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Well, let me give you a hint: the pattern is related to how numbers are doubled.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 2, "reason": "Names the correct pattern, provides explicit hint"}
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "That's a good start! But remember, the sequence goes 2, 4, 8, 16. How do you think we get from 4 to 8?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of a specific step"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's okay! We all get stuck sometimes. Let me give you another hint: think about what happens when you double a number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a fairly direct hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! Now, can you use this pattern to find the next number in the sequence?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of a specific step"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "That is correct! Now, can you explain to me in your own words why this pattern works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets general principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "What made you think of using addition? Was there something in the sequence that hinted at that?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Fully open-ended, invites explanation of process"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "That's not quite correct. What happens if we look at the difference between each pair of numbers? For example, 6 - 2 = ?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires calculation and explanation"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Here's a hint: when we add a certain number to each term, the differences between terms will change. Think about what number you could be adding to each term.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a fairly direct hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "You're on the right track! Remember, the differences between terms change when we add a certain number. What if you looked at what gets added each time?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "Provides a small useful nudge"}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "That's absolutely right! Now, can you figure out what gets added to get from 20 to the next term?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of a specific step"},
+                "Non-Leading": {"score": 5, "reason": "No hints or answer cues provided"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you explain in your own words why this sequence works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "Targets general principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "That makes perfect sense! You've really grasped the pattern behind this sequence. Great job!",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor demonstrates good use of diagnosis and synthesis questions, though occasionally gives direct hints that reduce opportunities for student exploration. Some confirmations of the answer are too brief and do not prompt further thinking."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "What made you think of using addition? Was there something in the sequence that hinted at that?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires a multi‑sentence explanation of reasoning"},
+                "Non-Leading": {"score": 5, "reason": "Completely neutral, no hint toward a correct answer"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "That's not quite correct. What happens if we look at the difference between each pair of numbers? For example, 6 - 2 = ?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a fairly direct hint to compute differences"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Here's a hint: when we add a certain number to each term, the differences between terms will change. Think about what number you could be adding to each term.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 2, "reason": "Names the correct step (consider the added number) fairly directly"}
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "You're on the right track! Remember, the differences between terms change when we add a certain number. What if you looked at what gets added each time?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "Small useful nudge directing attention to the added amount"}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "That's absolutely right! Now, can you figure out what gets added to get from 20 to the next term?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 2, "reason": "Calls for a short numeric answer, limited explanation"},
+                "Non-Leading": {"score": 5, "reason": "Neutral request, no guidance toward a specific value"}
+            },
+            "total_score": 7
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you explain in your own words why this sequence works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong request for a full explanation in the student's own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Explicitly asks for the underlying principle of the pattern"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "That makes perfect sense! You've really grasped the pattern behind this sequence. Great job!",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor mostly provided appropriate support and synthesis prompts, though some earlier turns were purely diagnostic. One turn offered generic praise without pedagogical value, classified as NONE."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 4,
+                    "reason": "Requires more than a one-word answer to explain a relationship."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is neutral and does not suggest any particular relationship or answer."
+                }
+            },
+            "total_score": 9,
+            "reason": "This question directly probes the student's thinking about the sequence without providing any hints."
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 2,
+                    "reason": "Directly states the underlying mathematical concept (powers of 2) which is a significant hint."
+                }
+            },
+            "total_score": 2,
+            "reason": "The tutor explicitly reveals the core mathematical concept, which is a strong hint and deviates from pure diagnosis or subtle support."
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Suggests an action (doubling) which is a clear, albeit not fully explicit, hint."
+                }
+            },
+            "total_score": 4,
+            "reason": "This response provides a directive and a hint about the operation to perform."
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "Explicitly asks for an explanation in the student's own words."
+                },
+                "Conceptual Integration": {
+                    "score": 4,
+                    "reason": "Asks for the reasoning behind the method, prompting integration of the concept."
+                }
+            },
+            "total_score": 9,
+            "reason": "This question prompts the student to articulate the understanding of the pattern in their own words, fitting the Synthesis state."
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0,
+            "reason": "This is a confirmation and praise, not a Socratic question or hint. It does not prompt further thinking or explanation."
+        }
+    ],
+    "overall_comments": "The tutor started with a good diagnostic question but quickly moved to providing strong hints, particularly revealing the 'powers of 2' concept. The final turn was purely confirmatory and lacked pedagogical value."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 1,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Fully open-ended question inviting explanation"},
+                "Non-Leading": {"score": 5, "reason": "No hints, purely neutral"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 2, "reason": "Provides explicit relationship, a direct hint"}
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 3,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Direct suggestion to double, moderate hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt for explanation in own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Focuses on why the pattern works"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 5,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Great start! Let's see... What do you notice about the first number, 2? Does anything jump out at you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Open-ended prompt"},
+                "Non-Leading": {"score": 5, "reason": "No hints"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 7,
+            "speaker": "tutor",
+            "response": "Well, let me give you a hint: the pattern is related to how numbers are doubled.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 2, "reason": "Provides explicit hint"}
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's a good start! But remember, the sequence goes 2, 4, 8, 16. How do you think we get from 4 to 8?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of a specific step"},
+                "Non-Leading": {"score": 5, "reason": "Neutral question"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 9,
+            "speaker": "tutor",
+            "response": "That's okay! We all get stuck sometimes. Let me give you another hint: think about what happens when you double a number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Direct hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! Now, can you use this pattern to find the next number in the sequence?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Encourages application of pattern"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 11,
+            "speaker": "tutor",
+            "response": "That is correct! Now, can you explain to me in your own words why this pattern works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong prompt for own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Asks for underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "What made you think of using addition? Was there something in the sequence that hinted at that?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Open question about reasoning"},
+                "Non-Leading": {"score": 5, "reason": "No hint"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 13,
+            "speaker": "tutor",
+            "response": "That's not quite correct. What happens if we look at the difference between each pair of numbers? For example, 6 - 2 = ?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires explanation of difference step"},
+                "Non-Leading": {"score": 5, "reason": "Neutral"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "Here's a hint: when we add a certain number to each term, the differences between terms will change. Think about what number you could be adding to each term.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 15,
+            "speaker": "tutor",
+            "response": "You're on the right track! Remember, the differences between terms change when we add a certain number. What if you looked at what gets added each time?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Specific step question"},
+                "Non-Leading": {"score": 5, "reason": "Neutral"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 16,
+            "speaker": "tutor",
+            "response": "That's absolutely right! Now, can you figure out what gets added to get from 20 to the next term?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Specific step question"},
+                "Non-Leading": {"score": 5, "reason": "Neutral"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 17,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you explain in your own words why this sequence works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong ask for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "Underlies principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 18,
+            "speaker": "tutor",
+            "response": "That makes perfect sense! You've really grasped the pattern behind this sequence. Great job!",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 19,
+            "speaker": "tutor",
+            "response": "That's a good observation! Can you tell me what pattern you do see? Maybe it's not an arithmetic sequence, but there's something else going on.",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Open question"},
+                "Non-Leading": {"score": 5, "reason": "Neutral"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 20,
+            "speaker": "tutor",
+            "response": "Doubling is a good start! Let's think about what would happen if we doubled the last number again... How does that look to you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Specific step question"},
+                "Non-Leading": {"score": 5, "reason": "Neutral"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 21,
+            "speaker": "tutor",
+            "response": "That's a good instinct! Sometimes, multiplication isn't the only way to find the next number in a sequence. Can you think of any other operations that might work?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Specific step question"},
+                "Non-Leading": {"score": 5, "reason": "Neutral"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 22,
+            "speaker": "tutor",
+            "response": "You're getting closer! But remember, the pattern isn't just about what's added or multiplied \u2013 think about how those operations relate to the starting number.",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Specific step question"},
+                "Non-Leading": {"score": 5, "reason": "Neutral"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 23,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you summarize in your own words why this pattern works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong ask for own words"},
+                "Conceptual Integration": {"score": 5, "reason": "Mechanism behind pattern"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 24,
+            "speaker": "tutor",
+            "response": "That's absolutely right! You nailed both the pattern and why it works. Well done!",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor predominantly used Diagnosis and Support techniques, with occasional Synthesis prompts. The support hints were sometimes explicit, occasionally a bit direct. Overall, the conversation maintained a constructive Socratic tone."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "That's a good observation! Can you tell me what pattern you do see? Maybe it's not an arithmetic sequence, but there's something else going on.",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Invites an open explanation of any pattern the student perceives"},
+                "Non-Leading": {"score": 5, "reason": "Neutral prompt with no hint toward a specific answer"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Doubling is a good start! Let's think about what would happen if we doubled the last number again... How does that look to you?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides a fairly direct hint to consider doubling the last term again"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "That's a good instinct! Sometimes, multiplication isn't the only way to find the next number in a sequence. Can you think of any other operations that might work?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "Requires the student to propose alternative operations and explain reasoning"},
+                "Non-Leading": {"score": 5, "reason": "Neutral question, no guidance toward a particular operation"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "You're getting closer! But remember, the pattern isn't just about what's added or multiplied – think about how those operations relate to the starting number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "Gives a subtle cue to consider the relationship to the first term without specifying the exact step"}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you summarize in your own words why this pattern works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong request for a full explanation in the student's own words"},
+                "Conceptual Integration": {"score": 4, "reason": "Asks for the underlying reason behind the pattern, linking to general concept"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "That's absolutely right! You nailed both the pattern and why it works. Well done!",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor mostly used appropriate Socratic moves, with clear Diagnosis and Synthesis prompts. Two hints were provided as Support, and the final congratulatory message was correctly classified as NONE."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 5,
+                    "reason": "The question asks for a relationship between numbers, requiring an explanation beyond a simple answer."
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "The question is completely neutral and does not suggest any particular pattern or approach."
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 3,
+                    "reason": "Provides a direct hint about the nature of the pattern (powers of 2)."
+                }
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Suggests a specific action (doubling) to apply to each number, providing a clear nudge."
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "Explicitly asks the student to explain the reasoning 'in their own words'."
+                },
+                "Conceptual Integration": {
+                    "score": 4,
+                    "reason": "Asks for the student to articulate the principle behind the method used."
+                }
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor effectively uses diagnosis to probe student thinking. Hints are provided to guide the student. The final turn attempts synthesis but is more of a confirmation."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 1,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "fully open-ended, invites explanation of process"},
+                "Non-Leading": {"score": 5, "reason": "no hints or answer cues provided"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 3,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "provides a direct, actionable hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "strong prompt for explanation in own words"},
+                "Conceptual Integration": {"score": 5, "reason": "targets underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 5,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Great start! Let's see... What do you notice about the first number, 2? Does anything jump out at you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "encourages detailed explanation"},
+                "Non-Leading": {"score": 5, "reason": "no hints or answer cues provided"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 7,
+            "speaker": "tutor",
+            "response": "Well, let me give you a hint: the pattern is related to how numbers are doubled.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "directly gives hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "That's a good start! But remember, the sequence goes 2, 4, 8, 16. How do you think we get from 4 to 8?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "requires explanation of a step"},
+                "Non-Leading": {"score": 5, "reason": "neutral tone"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 9,
+            "speaker": "tutor",
+            "response": "Let me give you another hint: think about what happens when you double a number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "direct hint phrased as a suggestion"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! Now, can you use this pattern to find the next number in the sequence?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "asks for application to find next term"},
+                "Non-Leading": {"score": 5, "reason": "neutral, no direct guidance"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 11,
+            "speaker": "tutor",
+            "response": "That is correct! Now, can you explain to me in your own words why this pattern works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "asks for explanation in own words"},
+                "Conceptual Integration": {"score": 5, "reason": "targets underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "What made you think of using addition? Was there something in the sequence that hinted at that?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "fully open-ended, requests explanation of current thinking"},
+                "Non-Leading": {"score": 5, "reason": "neutral, no hints"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 13,
+            "speaker": "tutor",
+            "response": "That's not quite correct. What happens if we look at the difference between each pair of numbers? For example, 6 - 2 = ?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "directly suggests a calculation"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 14,
+            "speaker": "tutor",
+            "response": "Here's a hint: when we add a certain number to each term...",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "provides a hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 15,
+            "speaker": "tutor",
+            "response": "You're on the right track! Remember, the differences between terms change when we add a certain number. What if you looked at what gets added each time?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "suggests focus on a particular aspect"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 16,
+            "speaker": "tutor",
+            "response": "That's absolutely right! Now, can you figure out what gets added to get from 20 to the next term?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "asks for explanation of a specific step"},
+                "Non-Leading": {"score": 5, "reason": "neutral tone"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 17,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you explain in your own words why this sequence works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "strong prompt for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "targets underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 18,
+            "speaker": "tutor",
+            "response": "That's a good observation! Can you tell me what pattern you do see?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "encourages detailed explanation"},
+                "Non-Leading": {"score": 5, "reason": "no hints or answer cues"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 19,
+            "speaker": "tutor",
+            "response": "Doubling is a good start! Let's think about what would happen if we doubled the last number again... How does that look to you?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "asks for reasoning about a specific step"},
+                "Non-Leading": {"score": 5, "reason": "neutral tone"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 20,
+            "speaker": "tutor",
+            "response": "That's a good instinct! Sometimes, multiplication isn't the only way to find the next number in a sequence. Can you think of any other operations that might work?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "asks for reasoning about a specific step"},
+                "Non-Leading": {"score": 5, "reason": "neutral tone"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 21,
+            "speaker": "tutor",
+            "response": "You're getting closer! But remember, the pattern isn't just about what's added or multiplied ...",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "asks for reasoning about a specific step"},
+                "Non-Leading": {"score": 5, "reason": "neutral tone"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 22,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you summarize in your own words why this pattern works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "strong prompt for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "targets underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 23,
+            "speaker": "tutor",
+            "response": "That's absolutely right! You nailed both the pattern and why it works. Well done!",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        },
+        {
+            "turn_number": 24,
+            "speaker": "tutor",
+            "response": "That's a good observation! What do you think is the pattern between each number?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "fully open-ended, invites explanation of current thinking"},
+                "Non-Leading": {"score": 5, "reason": "neutral, no hints"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 25,
+            "speaker": "tutor",
+            "response": "That's close! But actually, the difference between each number is increasing by one more than before.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "directly provides rule as hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 26,
+            "speaker": "tutor",
+            "response": "Think of it this way: the differences between each number are consecutive integers. Can you spot the next difference?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "suggests a specific focus"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 27,
+            "speaker": "tutor",
+            "response": "Exactly! And if that's correct, what will the next number in the original sequence be?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "asks for next step reasoning"},
+                "Non-Leading": {"score": 5, "reason": "neutral tone"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 28,
+            "speaker": "tutor",
+            "response": "Well done! Can you explain in your own words why this method works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "strong prompt for explanation"},
+                "Conceptual Integration": {"score": 5, "reason": "targeting underlying principle"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 29,
+            "speaker": "tutor",
+            "response": "That's a great explanation! I'm proud of you for figuring this out.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor consistently employs diagnosis and synthesis questions to probe student reasoning, interspersed with frequent supportive hints. While the overall approach is largely supportive, some turns unnecessarily reveal solution details, reducing academic rigor. Maintaining a stronger focus on pure elicitation would enhance the quality of the scaffolding."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "Have you noticed any relationship between these numbers?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 4, "reason": "asks for explanation of relationship, requires sentence"},
+                "Non-Leading": {"score": 5, "reason": "completely neutral, no hint"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Actually, these numbers are related to powers of 2. Can you see the pattern now?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 2, "reason": "provides the key concept (powers of 2), direct hint"}
+            },
+            "total_score": 2
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think about what happens when you double a number... Do that with each number in the sequence.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "suggests concrete action (double each number)"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Good job! Now, can you explain why this method works in your own words?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "explicitly asks for explanation in own words"},
+                "Conceptual Integration": {"score": 4, "reason": "targets the underlying principle of doubling"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Exactly! You're applying the rule of powers of 2. Great job understanding it now.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor mostly used appropriate Socratic moves: two diagnosis questions, two supportive hints, and a synthesis prompt. The final comment was generic praise and classified correctly as NONE."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "That's a good observation! Can you tell me what pattern you do see? Maybe it's not an arithmetic sequence, but there's something else going on.",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "The question is fully open-ended, asking the student to explain their observations about the pattern."},
+                "Non-Leading": {"score": 5, "reason": "The question is neutral and does not provide any hints or suggestions about the pattern."}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Doubling is a good start! Let's think about what would happen if we doubled the last number again... How does that look to you?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "The response suggests an action ('doubled the last number again') which is a subtle nudge towards the correct pattern without giving it away."}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "That's a good instinct! Sometimes, multiplication isn't the only way to find the next number in a sequence. Can you think of any other operations that might work?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "The question is open-ended, prompting the student to consider alternative operations beyond multiplication."},
+                "Non-Leading": {"score": 4, "reason": "While it hints that multiplication might not be the only way, it doesn't suggest a specific operation, remaining largely neutral."}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "You're getting closer! But remember, the pattern isn't just about what's added or multiplied \u2013 think about how those operations relate to the starting number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 4, "reason": "This response provides a directional hint, guiding the student to think about the relationship between operations and the starting number without revealing the specific pattern."}
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you summarize in your own words why this pattern works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "The question explicitly asks the student to 'summarize in your own words', prompting a deep explanation."},
+                "Conceptual Integration": {"score": 4, "reason": "It asks for an explanation of 'why this pattern works', which encourages the student to connect their solution to the underlying principle."}
+            },
+            "total_score": 9
+        }
+    ],
+    "overall_comments": "The tutor effectively uses a combination of diagnosis and support to guide the student through the problem. The final turn successfully prompts for synthesis, encouraging the student to articulate their understanding of the pattern."
+}
+,
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "That's a good observation! Can you tell me what pattern you do see? Maybe it's not an arithmetic sequence, but there's something else going on.",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {
+                    "score": 5,
+                    "reason": "Fully open-ended, invites explanation of pattern"
+                },
+                "Non-Leading": {
+                    "score": 5,
+                    "reason": "No hints or answer cues provided"
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "Doubling is a good start! Let's think about what would happen if we doubled the last number again... How does that look to you?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 4,
+                    "reason": "Subtle nudge to consider doubling again"
+                }
+            },
+            "total_score": 4
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "That's a good instinct! Sometimes, multiplication isn't the only way to find the next number in a sequence. Can you think of any other operations that might work?",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 5,
+                    "reason": "Very minimal, encourages independent exploration"
+                }
+            },
+            "total_score": 5
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "You're getting closer! But remember, the pattern isn't just about what's added or multiplied — think about how those operations relate to the starting number.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {
+                    "score": 5,
+                    "reason": "Provides a broad direction without giving solution"
+                }
+            },
+            "total_score": 5
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Excellent job! Now, can you summarize in your own words why this pattern works the way it does?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {
+                    "score": 5,
+                    "reason": "Strong prompt for explanation in own words"
+                },
+                "Conceptual Integration": {
+                    "score": 5,
+                    "reason": "Targets underlying principle"
+                }
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "That's absolutely right! You nailed both the pattern and why it works. Well done!",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor effectively uses diagnostic and support techniques early on, gradually shifting to synthesis to consolidate learning, but the final congratulatory remark lacks a pedagogical prompt."
+},
+{
+    "turn_by_turn_scores": [
+        {
+            "turn_number": 2,
+            "speaker": "tutor",
+            "response": "That's a good observation! What do you think is the pattern between each number?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 5, "reason": "Invites a detailed explanation of the pattern"},
+                "Non-Leading": {"score": 5, "reason": "Neutral question, no hint toward a specific answer"}
+            },
+            "total_score": 10
+        },
+        {
+            "turn_number": 4,
+            "speaker": "tutor",
+            "response": "That's close! But actually, the difference between each number is increasing by one more than before.",
+            "state": "Support",
+            "metrics": {
+                "Hint Minimality": {"score": 3, "reason": "Provides the key rule directly, a fairly direct hint"}
+            },
+            "total_score": 3
+        },
+        {
+            "turn_number": 6,
+            "speaker": "tutor",
+            "response": "Think of it this way: the differences between each number are consecutive integers. Can you spot the next difference?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 3, "reason": "Requires the student to state the next difference, may be a short answer"},
+                "Non-Leading": {"score": 5, "reason": "Question is neutral, no direction toward a specific value"}
+            },
+            "total_score": 8
+        },
+        {
+            "turn_number": 8,
+            "speaker": "tutor",
+            "response": "Exactly! And if that's correct, what will the next number in the original sequence be?",
+            "state": "Diagnosis",
+            "metrics": {
+                "Open-Endedness": {"score": 3, "reason": "Asks for the next term, likely a single number"},
+                "Non-Leading": {"score": 5, "reason": "Neutral request, no hint toward the answer"}
+            },
+            "total_score": 8
+        },
+        {
+            "turn_number": 10,
+            "speaker": "tutor",
+            "response": "Well done! Can you explain in your own words why this method works?",
+            "state": "Synthesis",
+            "metrics": {
+                "Explanation Prompting": {"score": 5, "reason": "Strong request to explain in own words"},
+                "Conceptual Integration": {"score": 4, "reason": "Links the explanation to the underlying principle of the pattern"}
+            },
+            "total_score": 9
+        },
+        {
+            "turn_number": 12,
+            "speaker": "tutor",
+            "response": "That's a great explanation! I'm proud of you for figuring this out.",
+            "state": "NONE",
+            "metrics": {},
+            "total_score": 0
+        }
+    ],
+    "overall_comments": "The tutor generally follows a Socratic approach, alternating diagnosis questions with helpful hints and a final synthesis prompt. However, one hint was overly direct, and the closing praise offers no further learning value."
+}]
